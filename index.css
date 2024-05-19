@@ -6,10 +6,11 @@
 }
 body{
     display: flex;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 img{
-    height: 99vh;
+    height: 100vh;
 }
 
 .container{
@@ -17,5 +18,48 @@ img{
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+.all__container{
+    display: flex;
+    flex-direction: column;
     
+}
+
+form{
+    border: 1px solid black;
+
+}
+form, .number__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.largeuwu__container{
+    padding: 10px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.number__container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.mmyy__container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.exp__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

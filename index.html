@@ -5,32 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="img__container"><img src="img/bg-main-desktop.png" alt="fondouwu"></div>    
+    <img src="img/bg-main-desktop.png" alt="fondouwu">
         <div class="container">
-          <form>
-              <div class="cardholder__container">
-                  <label for="cardholder">CardHolder Name</label>
-                  <input class="large__input" type="text" placeholder="e.g. Jane Appleseed" id="cardholder">
-              </div>
-              <div class="cardnumber__container">
-                  <label for="cardnumber">Card Number</label>
-                  <input class="large__input" type="text" placeholder="e.g 1234 5678 9123 0000" id="cardnumber">
-              </div>
-              <div>
-                  <div class="exp__container">
-                      <label for="number1 number2">EXP. DATE (MM/YY)</label>
-                      <input class="small__input" type="number" id="number1" placeholder="MM">
-                      <input class="small__input" type="number" id="number2" placeholder="YY">
-                  </div>
-                  <div class="cvc__container">
-                      <label id="cvc">CVC</label>
-                      <input class="medium__input" type="number" id="cvc" placeholder="e.g. 123">
-                  </div>
-              </div>
-              <button type="submit">Confirmuwu</button>
-          </form>
+            <form>
+                <div class="cardholder__container largeuwu__container all__container">
+                    <label for="cardholder">CardHolder Name</label>
+                    <input class="large__input" type="text" placeholder="e.g. Jane Appleseed" id="cardholder">
+                </div>
+                <div class="cardnumber__container largeuwu__container all__container">
+                    <label for="cardnumber">Card Number</label>
+                    <input class="large__input" type="text" placeholder="e.g 1234 5678 9123 0000" id="cardnumber">
+                </div>
+                <div class="number__container">
+                    <div class="exp__container ">
+                        <label for="number1 number2">EXP. DATE (MM/YY)</label>
+                            <div class="mmyy__container">
+                                <input class="small__input" type="number" id="number1" placeholder="MM">
+
+                                <input class="small__input" type="number" id="number2" 
+                                placeholder="YY">
+                            </div>    
+                    </div>
+                    <div class="cvc__container all__container">
+                        <label id="cvc">CVC</label>
+                        <input class="medium__input" type="number" id="cvc" placeholder="e.g. 123">
+                    </div>
+                </div>
+                <button type="submit">Confirmuwu</button>
+            </form>
         </div>
 </body>
 </html>
