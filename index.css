@@ -7,6 +7,7 @@
 body{
     display: flex;
     font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
 }
 
 img{
@@ -27,10 +28,14 @@ img{
 }
 
 form{
-    border: 1px solid black;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35%;
 
 }
-form, .number__container{
+.number__container{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -39,8 +44,6 @@ form, .number__container{
 
 
 .largeuwu__container{
-    padding: 10px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -49,7 +52,7 @@ form, .number__container{
 .number__container{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 20px;
 }
 
 .mmyy__container{
@@ -58,8 +61,32 @@ form, .number__container{
     gap: 20px;
 }
 
-.exp__container{
+.exp__container, .cvc__container{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+}
+
+button{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #21092f;
+    color: white;
+}
+
+input{
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid #dedddf; 
+}
+
+input::placeholder{
+    color: #bfbfbf;
+    font-size: 16px;
+}
+
+#number1, #number2{
+    width: 38%;
 }
