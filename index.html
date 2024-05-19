@@ -7,31 +7,30 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div><img src="img/bg-main-desktop.png" alt="fondouwu"></div>    
-        <div>
-            <form>
-                <div>
-                    <label for="cardholder">CardHolder Name</label>
-                    <input type="text" placeholder="e.g. Jane Appleseed" id="cardholder">
-                </div>
-                <div>
-                    <label for="cardnumber">Card Number</label>
-                    <input type="text" placeholder="e.g 1234 5678 9123 0000" id="cardnumber">
-                </div>
-                
-                <div>
-                    <div>
-                        <label for="number1 number2">EXP. DATE (MM/YY)</label>
-                        <input type="number" id="number1" placeholder="MM">
-                        <input type="number" id="number2" placeholder="YY">
-                    </div>
-                    <div>
-                        <label id="cvc">CVC</label>
-                        <input type="number" id="cvc" placeholder="e.g. 123">
-                    </div>
-                </div>
-                <button type="submit">Confirmuwu</button>
-            </form>
+    <div class="img__container"><img src="img/bg-main-desktop.png" alt="fondouwu"></div>    
+        <div class="container">
+          <form>
+              <div class="cardholder__container">
+                  <label for="cardholder">CardHolder Name</label>
+                  <input class="large__input" type="text" placeholder="e.g. Jane Appleseed" id="cardholder">
+              </div>
+              <div class="cardnumber__container">
+                  <label for="cardnumber">Card Number</label>
+                  <input class="large__input" type="text" placeholder="e.g 1234 5678 9123 0000" id="cardnumber">
+              </div>
+              <div>
+                  <div class="exp__container">
+                      <label for="number1 number2">EXP. DATE (MM/YY)</label>
+                      <input class="small__input" type="number" id="number1" placeholder="MM">
+                      <input class="small__input" type="number" id="number2" placeholder="YY">
+                  </div>
+                  <div class="cvc__container">
+                      <label id="cvc">CVC</label>
+                      <input class="medium__input" type="number" id="cvc" placeholder="e.g. 123">
+                  </div>
+              </div>
+              <button type="submit">Confirmuwu</button>
+          </form>
         </div>
 </body>
 </html>
